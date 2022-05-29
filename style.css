@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 31vw;
+    width: 39vw;
+    background: url(/Assigment/Analogclock_Website/img.png) no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second {
+    position: absolute;
+    background: black;
+    border-radius: 20px;
+    transform-origin: bottom;
+}
+#hour {
+    width: 2%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
